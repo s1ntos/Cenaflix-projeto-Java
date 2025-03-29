@@ -11,7 +11,7 @@ package conexao;
                         Connection conn = DriverManager.getConnection(
                                 "jdbc:mysql://localhost/ atv2", // linha de conexao
                                 "root", // usuario do mysql
-                                "joaocosta34"// senha do mysql
+                                "-----------"// senha do mysql
                         );
                         return conn;
             
